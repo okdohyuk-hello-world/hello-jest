@@ -3,9 +3,7 @@ function sum(a, b) {
 };
 
 function sumOf(numbers) {
-    let result = 0;
-    numbers.forEach((number) => result += number);
-    return result;
+    return numbers.reduce((sumValue, currentValue) => sumValue + currentValue, 0);
 };
 
 // 각각 내보내기
