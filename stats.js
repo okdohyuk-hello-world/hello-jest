@@ -1,0 +1,1 @@
+exports.sort = numbers => numbers.sort((a, b) => a - b);
